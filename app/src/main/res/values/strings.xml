@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Couchsurfing Quiz</string>
+    <string name="introduction">Couchsurfing does not have any rules.\nThere is, however, basic etiquette.\nHere is a quiz to test your etiquette.</string>
+    <string name="ready">Enter your name and press the button when you are ready to start!</string>
+    <string name="start">Start!</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="question_1">Is Couchsurfing a free place to stay when you are travelling?</string>
+    <string name="right_answer_1">Right. Show your appreciation with a meal, a small gift or some other gesture.</string>
+    <string name="wrong_answer_1">Wrong. Show your appreciation with a meal, a small gift or some other gesture.</string>
+
+    <string name="question_2">Check all the different ways you can participate on Couchsurfing?</string>
+    <string name="response1">Meet people using hangouts</string>
+    <string name="response2">Sell tickets to your event</string>
+    <string name="response3">Submit a public trip</string>
+    <string name="response4">Surf at somebody\'s place</string>
+    <string name="response5">Rent a couch out</string>
+    <string name="response6">Host an event</string>
+    <string name="response7">Host some couchsurfers</string>
+    <string name="response8">Post a job offer</string>
+    <string name="right_answer_2">Right. Couchsurfing is not for commercial use.</string>
+    <string name="wrong_answer_2">Wrong. Couchsurfing is not for commercial use.</string>
+
+    <string name="question_3">Do you use metal on a teflon pan?</string>
+    <string name="right_answer_3">Right. No metal on non-stick pans.</string>
+    <string name="wrong_answer_3">Wrong. No metals, and use a sponge or cloth to clean it.</string>
+
+    <string name="question_4">Will you host other couchsurfers?</string>
+    <string name="right_answer_4">Right. Couchsurfing is a community. Host before you travel.</string>
+    <string name="wrong_answer_4">Wrong. Couchsurfing is a community. Host before you travel.</string>
+
+    <string name="score">your score is:</string>
+
+</resources>
+

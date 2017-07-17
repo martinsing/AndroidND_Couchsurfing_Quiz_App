@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    tools:context="com.couchsurfing.couchsurfingquiz.Question1">
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="goSubmit"
+        android:text="submit" />
+
+    <RadioGroup
+        android:id="@+id/response"
+        style="@style/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/question">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/yes"
+            style="@style/response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/yes" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/no"
+            style="@style/response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/no" />
+    </RadioGroup>
+
+
+</RelativeLayout>
