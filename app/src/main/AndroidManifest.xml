@@ -20,7 +20,8 @@
         <activity android:name=".Question2" />
         <activity android:name=".Question3" />
         <activity android:name=".Question4" />
-        <activity android:name=".End"></activity>
+        <activity android:name=".End" />
+        <activity android:name=".Question5"></activity>
     </application>
 
 </manifest>

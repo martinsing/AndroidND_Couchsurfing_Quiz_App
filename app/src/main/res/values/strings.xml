@@ -31,6 +31,10 @@
     <string name="right_answer_4">Right. Couchsurfing is a community. Host before you travel.</string>
     <string name="wrong_answer_4">Wrong. Couchsurfing is a community. Host before you travel.</string>
 
+    <string name="question_5">What name will you use on your Couchsurfing profile?</string>
+    <string name="right_answer_5">Right. Always use your real name.</string>
+    <string name="wrong_answer_5">Wrong. Always use your real name..</string>
+
     <string name="score">your score is:</string>
 
 </resources>

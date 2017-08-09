@@ -57,7 +57,7 @@ public class Question4 extends AppCompatActivity {
                     q4 = 0;
                     Toast.makeText(getApplicationContext(), R.string.wrong_answer_4, Toast.LENGTH_SHORT).show();
                 }
-                Intent intent = new Intent(getApplicationContext(), End.class);
+                Intent intent = new Intent(getApplicationContext(), Question5.class);
                 startActivity(intent);
             }
         });
